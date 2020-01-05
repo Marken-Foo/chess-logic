@@ -1,7 +1,7 @@
 #ifndef POSITION_INCLUDED
 #define POSITION_INCLUDED
 
-#include "chessTypes.h"
+#include "chess_types.h"
 #include "bitboard.h"
 #include "move.h"
 
