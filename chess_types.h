@@ -193,7 +193,7 @@ inline Colour toColour(CastlingRights cr) {
 }
 
 // === Castling squares ===
-// In chess and in 960, the squares of the king and rook after castling are
+// In chess and in 960, the post-castling squares of the king and rook are
 // fixed.
 constexpr std::array<Square, NUM_CASTLES> SQ_K_TO {SQ_G1, SQ_C1, SQ_G8, SQ_C8};
 constexpr std::array<Square, NUM_CASTLES> SQ_R_TO {SQ_F1, SQ_D1, SQ_F8, SQ_D8};
